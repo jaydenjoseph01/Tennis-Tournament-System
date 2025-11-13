@@ -1,6 +1,6 @@
-package repository;
+package com.example.tennistournament.repository;
 
-import entity.Match;
+import com.example.tennistournament.entity.Match;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MatchRepository extends JpaRepository<Match, Long> {

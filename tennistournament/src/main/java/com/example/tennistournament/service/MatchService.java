@@ -1,4 +1,4 @@
-package service;
+package com.example.tennistournament.service;
 
 import org.springframework.stereotype.Service;
 
