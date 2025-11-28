@@ -1,6 +1,12 @@
 package com.example.tennistournament.repository;
 
+import com.example.tennistournament.entity.Player;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface PlayerRepository extends JpaRepository<PlayerRepository, Long> {
+import java.util.List;
+
+@Repository
+public interface PlayerRepository extends JpaRepository<Player, Long> {
+    List<Player> findAllByOrderByWinsDesc();
 }
