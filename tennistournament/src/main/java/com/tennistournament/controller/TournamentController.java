@@ -1,9 +1,9 @@
-package com.example.tennistournament.controller;
+package com.tennistournament.controller;
 
-import com.example.tennistournament.dto.requests.TournamentRequest;
-import com.example.tennistournament.dto.responses.TournamentResponse;
-import com.example.tennistournament.entity.Tournament;
-import com.example.tennistournament.service.TournamentService;
+import com.tennistournament.dto.requests.TournamentRequest;
+import com.tennistournament.dto.responses.TournamentResponse;
+import com.tennistournament.entity.Tournament;
+import com.tennistournament.service.TournamentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

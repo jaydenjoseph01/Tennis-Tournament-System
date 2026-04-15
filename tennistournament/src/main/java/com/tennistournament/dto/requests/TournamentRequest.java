@@ -1,4 +1,4 @@
-package com.example.tennistournament.dto.requests;
+package com.tennistournament.dto.requests;
 
 import java.time.LocalDate;
 

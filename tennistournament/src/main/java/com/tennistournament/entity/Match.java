@@ -1,4 +1,4 @@
-package com.example.tennistournament.entity;
+package com.tennistournament.entity;
 
 import jakarta.persistence.*;
 

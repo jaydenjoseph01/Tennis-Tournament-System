@@ -1,6 +1,6 @@
-package com.example.tennistournament.repository;
+package com.tennistournament.repository;
 
-import com.example.tennistournament.entity.Match;
+import com.tennistournament.entity.Match;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

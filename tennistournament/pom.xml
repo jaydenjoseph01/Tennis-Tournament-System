@@ -8,11 +8,11 @@
 		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.tennistournament</groupId>
 	<artifactId>tennistournament</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tennistournament</name>
-	<description>Final Project COP 2800</description>
+	<description>Tennis Tournament REST API System</description>
 	<url/>
 	<licenses>
 		<license/>

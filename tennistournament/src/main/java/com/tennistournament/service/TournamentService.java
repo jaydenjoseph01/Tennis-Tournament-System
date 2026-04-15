@@ -1,8 +1,8 @@
-package com.example.tennistournament.service;
+package com.tennistournament.service;
 
-import com.example.tennistournament.dto.requests.TournamentRequest;
-import com.example.tennistournament.entity.Tournament;
-import com.example.tennistournament.repository.TournamentRepository;
+import com.tennistournament.dto.requests.TournamentRequest;
+import com.tennistournament.entity.Tournament;
+import com.tennistournament.repository.TournamentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

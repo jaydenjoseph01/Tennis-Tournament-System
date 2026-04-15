@@ -1,4 +1,4 @@
-package com.example.tennistournament;
+package com.tennistournament;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

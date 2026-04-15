@@ -1,11 +1,11 @@
-package com.example.tennistournament.controller;
+package com.tennistournament.controller;
 
-import com.example.tennistournament.dto.requests.MatchRequest;
-import com.example.tennistournament.dto.responses.MatchResponse;
-import com.example.tennistournament.dto.responses.PlayerResponse;
-import com.example.tennistournament.entity.Match;
-import com.example.tennistournament.entity.Player;
-import com.example.tennistournament.service.MatchService;
+import com.tennistournament.dto.requests.MatchRequest;
+import com.tennistournament.dto.responses.MatchResponse;
+import com.tennistournament.dto.responses.PlayerResponse;
+import com.tennistournament.entity.Match;
+import com.tennistournament.entity.Player;
+import com.tennistournament.service.MatchService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;

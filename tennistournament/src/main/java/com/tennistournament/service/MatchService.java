@@ -1,11 +1,11 @@
-package com.example.tennistournament.service;
+package com.tennistournament.service;
 
-import com.example.tennistournament.dto.requests.MatchRequest;
-import com.example.tennistournament.entity.Match;
-import com.example.tennistournament.entity.Player;
-import com.example.tennistournament.exception.ResourceNotFoundException;
-import com.example.tennistournament.repository.MatchRepository;
-import com.example.tennistournament.repository.PlayerRepository;
+import com.tennistournament.dto.requests.MatchRequest;
+import com.tennistournament.entity.Match;
+import com.tennistournament.entity.Player;
+import com.tennistournament.exception.ResourceNotFoundException;
+import com.tennistournament.repository.MatchRepository;
+import com.tennistournament.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

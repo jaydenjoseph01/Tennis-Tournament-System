@@ -1,8 +1,8 @@
-package com.example.tennistournament.controller;
+package com.tennistournament.controller;
 
-import com.example.tennistournament.dto.responses.PlayerResponse;
-import com.example.tennistournament.entity.Player;
-import com.example.tennistournament.service.PlayerService;
+import com.tennistournament.dto.responses.PlayerResponse;
+import com.tennistournament.entity.Player;
+import com.tennistournament.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
